@@ -1,0 +1,167 @@
+#title {
+  background-color: #FFF5EB;
+}
+.title-image{
+  padding: 20px;
+  margin-left:25%;
+  width: 50%;
+}
+i img{
+  width: 3%;
+  margin:0px;
+  padding-bottom: 2px;
+}
+
+.container-fluid {
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: 1px;;
+    margin-left: auto;
+}
+
+/* NAVBAR */
+.nav-item:hover {
+  background-color: #9b1003;
+  border: solid #fff;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #334756;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #f5f5f5;
+}
+
+.dropdown-menu {
+  background-color: #343a40;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.navbar {
+  height: 100px;
+  padding: 30px;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.5em;
+}
+
+.navbar-brand {
+  font-size: 2.1em !important;
+}
+
+.nav-item-search {
+  padding: 0 15px;
+}
+
+.btn-outline-success {
+  font-weight: bold;
+  border: 2px solid;
+}
+
+/* FEATURES */
+
+#features {
+  background-color: #5B5B5B;
+  padding: 7% 10%;
+  text-align: center;
+}
+ h1 i{
+    color: #EADEDE;
+    border: 5px solid;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+#features .card{
+  background-color: #FFF5EB;
+  border: 1px solid black;
+  padding: 5px;
+}
+.youtube{
+  font-size: 4rem;
+
+}
+.youtube:hover{
+  color: red;
+}
+#features a, a:visited {
+    color: inherit;
+}
+
+#features h1{
+  font-family: 'Gluten', cursive;
+  line-height: 2;
+  font-weight: 900;
+  font-size: 5rem;
+  padding-bottom: 2%;
+  color: #F58840;
+}
+#features .card-title{
+  font-family: 'Gluten', cursive;
+  line-height: 2;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #FF6D6D;
+
+}
+#features .card-text{
+  font-family: 'Gluten', cursive;
+  line-height: 2;
+  font-weight: 900;
+  font-size: 1rem;
+  color: #5B5B5B;
+}
+
+
+
+
+
+
+/* FOOTER */
+#footer{
+  border: 1px solid;
+  padding: 5% 15%;
+  text-align: center;
+  background-color: #FF6D6D;
+}
+.cta{
+  background-color: transparent;
+  padding:3% 15%;
+  color: #fff;
+  text-align: center;
+}
+.cta button{
+  padding: 2%;
+  margin: 3% 1%;
+}
+.cta-heading{
+  font-family: "Montserrat"
+  line-height: 1.5;
+  font-weight: 900;
+  font-size: 3.5rem;
+
+}
+
+.social-media-icon{
+
+  font-size: 2rem;
+  margin: 20px 20px;
+}

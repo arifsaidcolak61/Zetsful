@@ -1,0 +1,281 @@
+#title {
+  background-color: #FFF5EB;
+}
+.title-image{
+  padding: 20px;
+  margin-left:25%;
+  width: 50%;
+}
+i img{
+  width: 3%;
+  margin:0px;
+  padding-bottom: 2px;
+}
+
+.container-fluid {
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: 1px;;
+    margin-left: auto;
+}
+
+/* NAVBAR */
+.nav-item:hover {
+  background-color: #9b1003;
+  border: solid #fff;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #334756;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #f5f5f5;
+}
+
+.dropdown-menu {
+  background-color: #343a40;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.navbar {
+  height: 100px;
+  padding: 30px;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.5em;
+}
+
+.navbar-brand {
+  font-size: 2.1em !important;
+}
+
+.nav-item-search {
+  padding: 0 15px;
+}
+
+.btn-outline-success {
+  font-weight: bold;
+  border: 2px solid;
+}
+
+
+/* SLIDE SECTION */
+#slide-section {
+  background-color:#FF6D6D;
+  text-align: center;
+  border-bottom: 2px solid;
+  border-top: 2px solid;
+}
+
+.carousel-item{
+   padding: 7% 15%;
+ }
+
+.carousel-item img{
+  width: 70%;
+  height: 70%;
+  max-width: 1330px;
+  max-height: 730px;
+  margin: 5px;
+  border: 2px solid;
+  border-radius: 30px;
+}
+#slide-section button{
+  background-color: transparent;
+border-style: none;
+}
+
+#slide-section h1{
+  font-family: "Montserrat"
+  line-height: 1.5;
+  font-weight: 900;
+  font-size: 3.5rem;
+  margin-bottom: 100px;
+  color: #FFF5EB;
+}
+
+
+
+/* FEATURES */
+#features {
+  background-color: #5B5B5B;
+  padding: 7% 10%;
+  text-align: center;
+}
+#features h1{
+  font-family: 'Gluten', cursive;
+  line-height: 2;
+  font-weight: 900;
+  font-size: 5rem;
+  padding-bottom: 2%;
+  color: #F58840;
+}
+#features i{
+    color: #EADEDE;
+    border: 5px solid;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+#features .row{
+  padding:1%;
+}
+.pricing-column{
+  background-color: transparent;
+  perspective: 1500px;
+
+}
+.card{
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.card-body{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-back{
+
+  background-color: transparent;
+  transform: rotateY(180deg);
+
+}
+.flip-card-back img{
+  opacity: 0.3;
+  width: 100%;
+  height: auto;
+  padding: 1px 1px 1px 1px;
+
+}
+.country-picture *{
+  opacity: 1 !important;
+  position: absolute;
+  text-align: center;
+  bottom: 10%;
+  right: 10%;
+  top: 10%;
+  left: 25.5%;
+  max-width: 50%;
+  max-height: 50%;
+}
+.text-block{
+  font-family: "Montserrat";
+  position: absolute;
+  text-align: center;
+  bottom: 10%;
+  right: 5%;
+  top: 50%;
+  left: 5%;
+  max-width: 100%;
+  width: auto;
+  max-height: 50%;
+  height: auto;
+
+
+}
+.text-block h2{
+  line-height: 1.5;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.text-block p{
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+#features .btn-primary{
+  background-color: #2C394B;
+   border-color: #DF5E5E;
+}
+#features .btn-primary:hover {
+    color: #212529;
+    background-color: #52bebe;
+    border-color: #8ad3d3
+}
+#features .btn-space{
+  padding: 2% 8%;
+  font-weight: 500;
+}
+#features a{
+  text-decoration: none;
+}
+
+.card-body img{
+  width: 100%;
+  height: auto;
+}
+.pricing-column:hover .card {
+  transform: rotateY( 188deg ) ;
+  transition: transform 0.5s;
+}
+.card-body:hover, .flip-card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.card:hover{
+box-shadow: 0 20px 50px #DF5E5E;
+}
+
+
+
+/* FOOTER */
+
+#footer{
+  border: 1px solid;
+  padding: 5% 15%;
+  text-align: center;
+  background-color: #FF6D6D;
+}
+.cta{
+  background-color: transparent;
+  padding:3% 15%;
+  color: #fff;
+  text-align: center;
+}
+.cta button{
+  padding: 2%;
+  margin: 3% 1%;
+}
+.cta-heading{
+  font-family: "Montserrat"
+  line-height: 1.5;
+  font-weight: 900;
+  font-size: 3.5rem;
+
+}
+
+.social-media-icon{
+
+  font-size: 2rem;
+  margin: 20px 20px;
+}
