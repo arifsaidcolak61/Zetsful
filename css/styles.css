@@ -1,7 +1,10 @@
 #title {
   background-color: #FFF5EB;
 }
+
+
 .title-image{
+  position: relative;
   padding: 20px;
   margin-left:25%;
   width: 50%;
@@ -13,6 +16,7 @@ i img{
 }
 
 .container-fluid {
+  z-index: 1
     width: 100%;
     height: 100%;
     padding-top: 0px;
@@ -30,7 +34,10 @@ i img{
   border-width: 1px;
   border-radius: 3px;
 }
-
+.collapse{
+  background-color: #343a40;
+  z-index: 1;
+}
 .dropdown-menu a:hover {
   background-color: #334756;
   border: solid;
@@ -78,7 +85,9 @@ i img{
 
 
 /* SLIDE SECTION */
+
 #slide-section {
+  z-index: -1;
   background-color:#FF6D6D;
   text-align: center;
   border-bottom: 2px solid;
@@ -87,9 +96,11 @@ i img{
 
 .carousel-item{
    padding: 7% 15%;
+
  }
 
 .carousel-item img{
+  z-index: -1;
   width: 70%;
   height: 70%;
   max-width: 1330px;
@@ -100,7 +111,8 @@ i img{
 }
 #slide-section button{
   background-color: transparent;
-border-style: none;
+  border-style: none;
+  z-index: 0;
 }
 
 #slide-section h1{
@@ -136,7 +148,7 @@ border-style: none;
 }
 
 #features .row{
-  padding:1%;
+  padding: 1%;
 }
 .pricing-column{
   background-color: transparent;
@@ -187,7 +199,7 @@ border-style: none;
   font-family: "Montserrat";
   position: absolute;
   text-align: center;
-  bottom: 10%;
+  bottom: 15%;
   right: 5%;
   top: 50%;
   left: 5%;
@@ -232,7 +244,7 @@ border-style: none;
 }
 .pricing-column:hover .card {
   transform: rotateY( 188deg ) ;
-  transition: transform 0.5s;
+  transition: transform 0.75s;
 }
 .card-body:hover, .flip-card-back{
   position: absolute;
@@ -243,7 +255,7 @@ border-style: none;
 }
 
 .card:hover{
-box-shadow: 0 20px 50px #DF5E5E;
+box-shadow: 0 20px 100px #DF5E5E;
 }
 
 
@@ -266,6 +278,9 @@ box-shadow: 0 20px 50px #DF5E5E;
   padding: 2%;
   margin: 3% 1%;
 }
+#footer a{
+  text-decoration: none;
+}
 .cta-heading{
   font-family: "Montserrat"
   line-height: 1.5;
@@ -276,6 +291,6 @@ box-shadow: 0 20px 50px #DF5E5E;
 
 .social-media-icon{
 
-  font-size: 2rem;
+  font-size: 3rem;
   margin: 20px 20px;
 }
